@@ -5,9 +5,132 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main_banner {
+  background-image: url(../public/images/home_banner_image.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding: 210px 30px 120px;
+  display: block;
+  text-align: center;
+  margin-top: -92px;
+}
+
+.main_banner_heading {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 78px;
+  color: white;
+  letter-spacing: -1px;
+
+}
+
+.main_banner_dis {
+  font-family: 'IBM Plex Mono', sans-serif !important;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+.main_banner_button {
+  background-color: #5ab963;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.main_banner_button:hover {
+  background-color: #48944f !important;
+  color: white !important;
+}
+
+.other_banner {
+  background-color: #5ab963;
+  width: 100%;
+  height: auto;
+  padding: 180px 30px 90px;
+  display: block;
+  margin-top: -92px;
+}
+
+.other_banner_link_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.other_banner_link {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.other_banner_link:hover {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+
+.other_banner_link_line {
+  background-color: #fff;
+  height: 2px;
+  width: 30px;
+  margin-left: 20px;
+  display: block;
+}
+
+.other_banner_heading {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 72px;
+  line-height: 78px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  width: 60%;
+}
+
+.other_banner_dis {
+  font-family: 'IBM Plex Mono', sans-serif !important;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 60%;
+}
+
+.second_section {
+  display: flex;
+  padding: 120px 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_section_text {
+  margin-top: 0px;
+  color: #b3b3b3;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  width: 50%;
+  margin-bottom: 90px;
+}
+
+.second_section_text span{
+  color: black;
+  font-weight: 800;
 }
