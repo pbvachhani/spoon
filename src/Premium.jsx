@@ -7,7 +7,7 @@ const Premium = () => {
     <>
       <OtherBanner heading="Personalized and total service." link="Premium" dis="At sint tollit veritus duo, ex tota inimicus dissentiunt usu. Dico tamquam perfecto usu id. Eu nec option perfecto vituperatoribus. Ea qui congue patrioque, quo ei recteque consequuntur." />
       <div className='second_section'>
-        <SecondSectionText textBold="Here's a different option for you." textNormal="Eos in maluisset mediocritatem. Cu qui admodum inimicus, te mei debet qualisque." />
+        <SecondSectionText textBold="Here's a different option for you." textNormal="He would have preferred them to mediocrity. With him who is a very great enemy, he owes you to me." />
       </div>
     </>
   )
