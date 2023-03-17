@@ -355,7 +355,40 @@ code {
   align-items: center;
 }
 
-.footer_section{
+.footer_section {
   background-color: #0a0e1a;
   padding: 120px 0 150px;
+}
+
+.footer_section_img_col_text {
+  margin-top: 15px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.footer_section_link_2col {
+  padding: 0;
+  list-style: none;
+}
+
+.footer_section_link_2col_list,
+.footer_section_icon_link {
+  margin-bottom: 25px;
+  transition: color 200ms ease;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer_section_link_2col_list:hover,
+.footer_section_icon_link:hover {
+  color: hsla(0, 0%, 100%, .7);
+}
+
+.footer_section_icon_link {
+  margin-right: 20px;
 }
