@@ -14,7 +14,7 @@ const Menu = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="collapsibleNavId">
                         <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
-                            <li className="nav-item">
+                            <li className="nav-item bg-[#fff]">
                                 <Link exact to={"/features"} className="nav-link p-4 text-white" > Features </Link>
                             </li>
                             <li className="nav-item">

@@ -12,11 +12,10 @@ const Feature = () => {
             <div className='second_section'>
                 <div className='container'>
                     <div className='second_section_text_box'>
-                        <SecondSectionText textBold="Electra set it up. He that option you, that power treated." textNormal="They think that it is too much for me, and he does not accept it, but he who accommodates his accusers." />
+                        <SecondSectionText textBold="Electra set it up. He that option you, that power treated." textNormal="They think that it is too much for me, and he does not accept it, but he who accommodates his accusers."  width={"50%"} margin={"0 0 90px 0"} />
                     </div>
                     <div className='card_section'>
                         {cardData.map((value) => {
-
                             return <SingleCard values={value} width={"23%"} />
                         })}
                     </div>

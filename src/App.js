@@ -1,12 +1,13 @@
 
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
+// import './App.css';
 import Menu from './componant/Menu';
 import Feature from './Feature';
 import Premium from './Premium';
 import Home from './Home';
 import Pricing from './Pricing';
 import About from './About';
+import Footer from './componant/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/pricing' element={<Pricing name="Pricing" />} />
         <Route exact path='/about' element={<About name="About" />} />
       </Routes>
+      <Footer />
     </>
   );
 }
