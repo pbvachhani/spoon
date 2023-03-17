@@ -58,6 +58,10 @@ code {
   max-width: 1190px;
 }
 
+.header_button_link:hover {
+  color: black !important;
+}
+
 .main_banner {
   background-image: url(../public/images/home_banner_image.jpg);
   width: 100%;
@@ -391,4 +395,58 @@ code {
 
 .footer_section_icon_link {
   margin-right: 20px;
+}
+
+.page_img_dis_section {
+  background-color: transparent;
+  padding: 120px 0;
+}
+
+.feature_premium_section {
+  background-image: url(../public/images/image-premium-banner.jpg);
+  width: 100%;
+  padding: 120px 0;
+  display: block;
+}
+
+.feature_premium_section_inner {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.feature_premium_section_inner_green_box {
+  max-width: 370px;
+  padding: 60px 50px;
+  background-color: #5ab963;
+}
+
+.feature_premium_section_inner_green_box_heading {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.feature_premium_section_inner_green_box_heading_bold {
+  font-weight: 800;
+}
+
+.feature_premium_section_inner_green_box_button {
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: white;
+  transition: background-color 200ms ease;
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.feature_premium_section_inner_green_box_button:hover {
+  background-color: #e6e6e6;
+  color: #000;
 }

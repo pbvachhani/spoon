@@ -25,7 +25,7 @@ const ImageWithDis = () => {
                 </div>
                 <div class="col-md-5">
                     <div className='img_with_dis_img_box'>
-                        <img src='./images/img_with_dis-01.jpg' alt="" />
+                        <img src='./images/image_with_dis_02.jpg' alt="" />
                     </div>
                 </div>
             </div>

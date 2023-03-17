@@ -33,7 +33,7 @@ const Menu = () => {
                                 <Link exact to={"/sign in"} className="nav-link p-4 text-white" > Sign in </Link>
                             </li>
                         </ul>
-                        <button className="btn btn-outline-light my-2 my-sm-0 border-2 " >Get Started</button>
+                        <button className="btn btn-outline-light my-2 my-sm-0 border-2 p-0"><Link exact to={"/contact"} className="nav-link text-white header_button_link" >Get Started</Link></button>
                     </div>
                 </div>
             </nav>
