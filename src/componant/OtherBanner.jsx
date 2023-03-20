@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const OtherBanner = (props) => {
   return (
     <>
-      <div className='other_banner'>
+      <div className='other_banner' style={{paddingBottom:`${props.paddingBottom}`}}>
         <div className='container'>
           <div className='other_banner_link_box'>
             <Link exact to={"/about"} className="other_banner_link">{props.link}</Link>

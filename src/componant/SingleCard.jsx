@@ -1,5 +1,5 @@
 import React from 'react';
-import cardData from "../CardData";
+
 
 const SingleCard = (props) => {
     return (

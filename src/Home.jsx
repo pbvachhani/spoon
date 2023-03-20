@@ -54,7 +54,7 @@ const Home = () => {
       <SectionLine />
       <div className='forth_section'>
         <div className='container'>
-          <ImageWithDis />
+          <ImageWithDis columnDirection="row"  />
           <h3 className='forth_section_bottom_heading '>Wanna know more about the Premium deal?</h3>
           <Link exact to={"/about"} className="third_section_link_text text-center"> See the full range of Premium </Link>
         </div>
