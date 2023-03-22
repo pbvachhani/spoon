@@ -56,6 +56,11 @@ code {
 
 .container {
   max-width: 1190px;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .header_button_link:hover {
@@ -205,7 +210,6 @@ code {
 }
 
 .card_box .card-title {
-  font-family: 'Libre Franklin', sans-serif;
   color: #000;
   font-size: 16px;
   font-weight: 600;
@@ -238,7 +242,7 @@ code {
 }
 
 .third_section {
-  padding: 110px 0;
+  padding: 110px 30px;
   text-align: center;
   background-color: #fafafa;
 }
@@ -266,7 +270,7 @@ code {
 }
 
 .forth_section {
-  padding: 120px 0;
+  padding: 120px 30px;
   background-color: #fafafa;
 }
 
@@ -294,7 +298,7 @@ code {
 }
 
 .fifth_section {
-  padding: 150px 0;
+  padding: 150px 30px;
   background-color: #fafafa;
 
 }
@@ -350,7 +354,9 @@ code {
   text-decoration: none;
 }
 
-.fifth_section_button:hover {
+.fifth_section_button:hover,
+.price_card_button:hover,
+.input_field_button input:hover {
   background-color: #48944f;
   color: white;
 }
@@ -363,7 +369,7 @@ code {
 
 .footer_section {
   background-color: #0a0e1a;
-  padding: 120px 0 150px;
+  padding: 120px 30px 150px;
 }
 
 .footer_section_img_col_text {
@@ -401,7 +407,7 @@ code {
 
 .page_img_dis_section {
   background-color: transparent;
-  padding: 120px 0;
+  padding: 120px 30px;
 }
 
 .feature_premium_section {
@@ -544,7 +550,7 @@ code {
 }
 
 .primium_page_third_section {
-  padding: 120px 0;
+  padding: 120px 30px;
 }
 
 .price_card_main {
@@ -628,10 +634,10 @@ code {
   text-align: center;
 }
 
-.price_card_button:hover {
+/* .price_card_button:hover {
   background-color: #48944f;
   color: white;
-}
+} */
 
 .pricing_third_section {
   position: relative;
@@ -644,7 +650,7 @@ code {
 }
 
 .pricing_forth_section {
-  padding: 120px 0;
+  padding: 120px 30px;
   background-color: #fafafa;
 }
 
@@ -684,12 +690,12 @@ code {
 }
 
 .about_third_section {
-  padding: 115px 0 115px;
+  padding: 115px 30px 115px;
 }
 
 .about_forth_section,
 .about_fifth_section {
-  padding: 120px 0;
+  padding: 120px 30px;
 }
 
 .about_guide_text_box {
@@ -818,7 +824,165 @@ code {
   background-color: #5ab963;
 }
 
-.input_field_button input:hover {
+/* .input_field_button input:hover {
   background-color: #48944f;
   color: white;
+} */
+
+.img_with_dis_img_box {
+  width: 100%;
+}
+
+.img_with_dis_img_box img {
+  width: 100%;
+}
+
+.spoon_header_main .navbar-toggler {
+  color: white !important;
+  border: 2px solid rgb(163, 160, 160) !important;
+}
+
+.spoon_header_main .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (max-width:1023px) {
+  .spoon_header_main {
+    background-color: black !important;
+    padding: 15px;
+  }
+
+  .spoon_header_main .spoon_header_ul li a {
+    padding: 15px !important;
+  }
+
+  .spoon_header_main .spoon_header_ul li a {
+    border-bottom: 1px solid rgb(65, 63, 63);
+  }
+
+  .spoon_header_main .spoon_header_button {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+  .main_banner_heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .second_section {
+    padding: 80px 30px;
+  }
+
+  .card_box {
+    padding: 35px 25px;
+  }
+
+  .third_section {
+    padding: 80px 30px;
+  }
+
+  .forth_section {
+    padding: 90px 30px;
+  }
+
+  .second_section_main_res,
+  .img_with_dis_para_text {
+    width: 95% !important;
+    margin: 0px 0px 15px 15px !important;
+  }
+
+  .second_section_text {
+    font-size: 22px;
+  }
+
+  .forth_section_bottom_heading {
+    margin-top: 80px;
+  }
+
+  .fifth_section {
+    padding: 90px 30px;
+  }
+
+  .fifth_section_text_box {
+    width: 400px;
+  }
+
+  .footer_section {
+    padding: 90px 30px 100px;
+  }
+}
+
+@media(max-width:767px) {
+
+  .main_banner {
+    padding: 180px 30px 100px;
+  }
+
+  .main_banner_heading {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .fifth_section_text_box {
+    width: 100%;
+  }
+
+  .second_section {
+    padding: 70px 30px;
+  }
+
+  .second_section_main_res {
+    width: 100% !important;
+    margin: 0px 0px 30px !important;
+  }
+
+  .second_section_text {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .card_section .card_box {
+    width: 100% !important;
+    margin: 0 0 20px 0 !important;
+    padding: 30px 20px;
+  }
+
+  .third_section,
+  .forth_section {
+    padding: 70px 30px;
+  }
+
+  .img_with_dis_img_box {
+    margin-bottom: 20px;
+  }
+
+  .img_with_dis_para_text {
+    width: 100%;
+    margin: -10px 0px 0px 0px;
+  }
+
+  .fifth_section {
+    padding: 70px 30px;
+  }
+
+  .fifth_section_iteams {
+    flex-direction: column;
+  }
+
+  .fifth_section_text {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  .fifth_section_get_button {
+    margin-top: 50px;
+  }
+  .footer_section {
+    padding: 70px 30px 70px;
+}
 }

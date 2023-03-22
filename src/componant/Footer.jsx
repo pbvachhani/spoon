@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='footer_section'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-6'>
+                        <div className='col-lg-6 col-md-5'>
                             <div className='footer_section_img_col'>
                                 <div className='footer_section_img_box'>
                                     <img src='./images/logo-spoon-white.svg' alt='' />
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <li className='mb-3'><Link exact to={"./#"} className='footer_section_link_2col_list' >Powered by Webflow</Link></li>
                             </ul>
                         </div>
-                        <div className='col-md-2'>
+                        <div className='col-lg-2 col-md-3'>
                             <div className='footer_section_icon_link'>
                             <Link exact to={"./#"} className='footer_section_icon_link'><img src='./images/footer_icon-facebook.svg' alt='fb-icon'></img></Link>
                             <Link exact to={"./#"} className='footer_section_icon_link'><img src='./images/footer_icon-instagram.svg' alt='fb-icon'></img></Link>

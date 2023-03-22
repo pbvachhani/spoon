@@ -28,7 +28,7 @@ const Feature = () => {
             <SectionLine />
             <div className='page_img_dis_section'>
                 <div className='container'>
-                    <ImageWithDis columnDirection="row" />
+                    <ImageWithDis columnDirection="row align-items-center" columnDirection_1="row align-items-center flex-column-reverse flex-md-row"/>
                 </div>
             </div>
             <div className='feature_premium_section'>

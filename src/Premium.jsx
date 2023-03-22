@@ -39,7 +39,7 @@ const Premium = () => {
       <SectionLine />
       <div className='primium_page_third_section'>
         <div className='container'>
-          <ImageWithDis columnDirection="row flex-row-reverse" />
+          <ImageWithDis columnDirection="row align-items-center" columnDirection_1="row align-items-center flex-column-reverse flex-md-row" />
         </div>
       </div>
       <FooterGetStartedSection />

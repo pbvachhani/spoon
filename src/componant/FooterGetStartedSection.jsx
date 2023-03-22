@@ -17,7 +17,7 @@ const FooterGetStartedSection = () => {
                                 <h2 className='fifth_section_text'><span>What does it take for me?</span> When I say that the labors and duties of the chiefs are embraced by the sea</h2>
                             </div>
                         </div>
-                        <div >
+                        <div className='fifth_section_get_button' >
                             <Link exact to={"/contact"} className='fifth_section_button' >Get Started</Link>
                         </div>
                     </div>
