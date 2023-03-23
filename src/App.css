@@ -194,6 +194,7 @@ code {
 .card_section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card_box {
@@ -1207,3 +1208,19 @@ code {
     margin-top: 50px;
   }
 }
+
+/* .navbar-toggler-icon {
+  position: relative;
+  background-image: none !important;
+}
+
+.navbar-toggler-icon:after {
+  content: "\f0c9";
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  left: 0;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  color: white;
+} */
