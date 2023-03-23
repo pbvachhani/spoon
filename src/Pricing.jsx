@@ -29,7 +29,7 @@ const Pricing = () => {
         <div className='container'>
           <div className='pricing_third_right_card_main'>
             {pricingData.map((value) => {
-              return <SingleCard values={value} width="25%" />
+              return <SingleCard values={value} width="23%" />
             })}
           </div>
         </div>

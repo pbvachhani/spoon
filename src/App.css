@@ -194,7 +194,6 @@ code {
 .card_section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .card_box {
@@ -557,11 +556,12 @@ code {
   border: 1px solid #f7f7f7;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
   margin: 0 10px;
+  width: 31%;
 }
 
 .price_card_content {
   padding: 50px 40px 50px;
-  min-height: 645px;
+  min-height: 662px;
 }
 
 .price_card_heading {
@@ -619,7 +619,8 @@ code {
 
 .price_card_box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .price_card_button {
@@ -647,6 +648,7 @@ code {
 .pricing_third_right_card_main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .pricing_forth_section {
@@ -701,6 +703,7 @@ code {
 .about_guide_text_box {
   display: flex;
   justify-content: space-between;
+
 }
 
 .about_guide_main {
@@ -806,7 +809,7 @@ code {
 }
 
 .input_field_button {
-  width: 20%;
+  width: 120px;
   margin-top: 50px;
 }
 
@@ -846,7 +849,41 @@ code {
   box-shadow: none;
 }
 
-@media (max-width:1023px) {
+
+@media (max-width:1024px) {
+
+  .card_section .card_box {
+    width: 31% !important;
+  }
+
+  .feature_premium_section_inner_green_box {
+    margin-right: 30px;
+  }
+
+  .primium_page_card_main {
+    margin: -60px 50px 120px;
+  }
+
+  .price_card_content {
+    min-height: 680px;
+  }
+
+  .pricing_third_right_card_main {
+    margin: 0 20px;
+  }
+
+  .pricing_QA {
+    width: 44%;
+    margin: 30px 0px;
+  }
+
+  .about_profile_card_main {
+    width: 22%;
+  }
+}
+
+@media (max-width:991px) {
+
   .spoon_header_main {
     background-color: black !important;
     padding: 15px;
@@ -864,10 +901,22 @@ code {
     margin-top: 25px !important;
     margin-bottom: 25px !important;
   }
+
+  .navbar-toggler {
+    padding: 1px 3px;
+  }
+
+  .contact_main {
+    margin-top: 40px;
+  }
+
 }
 
 
+
 @media(min-width:768px) and (max-width:991px) {
+
+  /* home and header-footer */
 
   .main_banner_heading {
     font-size: 50px;
@@ -878,8 +927,9 @@ code {
     padding: 80px 30px;
   }
 
-  .card_box {
+  .card_section .card_box {
     padding: 35px 25px;
+    width: 47% !important;
   }
 
   .third_section {
@@ -915,10 +965,67 @@ code {
   .footer_section {
     padding: 90px 30px 100px;
   }
+
+  .other_banner {
+    padding: 160px 30px 70px;
+  }
+
+  .other_banner_heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .primium_page_card_main {
+    margin: -60px 50px 80px;
+  }
+
+  .price_card_main {
+    width: 46%;
+    margin-top: 30px;
+  }
+
+  .pricing_third_right_card_main .card_box {
+    width: 47% !important;
+    padding: 40px 30px;
+  }
+
+  .pricing_third_section {
+    background: linear-gradient(0deg, #fafafa 75%, white 50%);
+  }
+
+  .pricing_forth_section {
+    padding: 80px 30px;
+  }
+
+  .price_card_price {
+    font-size: 52px;
+    line-height: 68px;
+  }
+
+  .about_third_section {
+    padding: 70px 30px 70px;
+  }
+
+  .about_forth_section,
+  .about_fifth_section {
+    padding: 70px 30px;
+  }
+
+  .about_guide_text_box {
+    margin-top: 40px;
+  }
+
+  .about_guide_heading {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+
 }
 
 @media(max-width:767px) {
 
+  /* home and header-footer */
   .main_banner {
     padding: 180px 30px 100px;
   }
@@ -933,7 +1040,7 @@ code {
   }
 
   .second_section {
-    padding: 70px 30px;
+    padding: 60px 30px;
   }
 
   .second_section_main_res {
@@ -942,8 +1049,8 @@ code {
   }
 
   .second_section_text {
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .card_section .card_box {
@@ -975,14 +1082,128 @@ code {
   }
 
   .fifth_section_text {
-    font-size: 23px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .fifth_section_get_button {
     margin-top: 50px;
   }
+
   .footer_section {
     padding: 70px 30px 70px;
-}
+  }
+
+  .other_banner_heading {
+    font-size: 40px;
+    line-height: 46px;
+    width: 100%;
+  }
+
+  .other_banner_dis {
+    width: 100%;
+  }
+
+  .feature_premium_section {
+    padding: 70px 0;
+  }
+
+  .feature_premium_section_inner_green_box {
+    margin: auto;
+    width: 80%;
+    padding: 40px 30px;
+  }
+
+  .primium_page_card_main {
+    padding: 20px 20px;
+    margin: -60px 30px 60px;
+  }
+
+  .primium_page_card_box {
+    flex-direction: column;
+  }
+
+  .primium_page_card_box_img {
+    margin-bottom: 20px;
+  }
+
+  .primium_page_testimonial_review {
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+  }
+
+  .primium_page_testimonial_user {
+    margin-top: 20px;
+  }
+
+  .primium_page_third_section {
+    padding: 60px 30px;
+  }
+
+  .price_card_price {
+    font-size: 40px;
+    line-height: 58px;
+  }
+
+  .price_card_main {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .price_card_content {
+    min-height: auto;
+  }
+
+  .pricing_third_right_card_main .card_box {
+    width: 100% !important;
+    padding: 30px 30px;
+  }
+
+  .pricing_QA {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .pricing_forth_section {
+    padding: 60px 30px;
+  }
+
+  .about_third_section {
+    padding: 60px 30px 60px;
+  }
+
+  .about_forth_section,
+  .about_fifth_section {
+    padding: 60px 30px;
+  }
+
+  .about_guide_main {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .about_guide_text_box {
+    flex-wrap: wrap;
+  }
+
+
+  .about_guide_heading {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about_profile_card_main {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .input_field {
+    width: 100%;
+  }
+
+  .input_field_button {
+    width: 100%;
+    margin-top: 50px;
+  }
 }

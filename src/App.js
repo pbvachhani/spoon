@@ -21,6 +21,7 @@ function App() {
         <Route exact path='/pricing' element={<Pricing name="Pricing" />} />
         <Route exact path='/about' element={<About name="About" />} />
         <Route exact path='/contact' element={<Contact name="Contact" />} />
+        <Route exact path='/sign in' element={<Contact name="Contact" />} />
       </Routes>
       <Footer />
     </>

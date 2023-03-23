@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Menu = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-transparent spoon_header_main">
+            <nav className="navbar navbar-expand-lg navbar-dark px-4 bg-transparent spoon_header_main">
                 <div className="container">
                     <Link exact to={"/"} className="navbar-brand"  > <img src="./images/logo-spoon-white.svg" alt="spoon_logo" /> </Link>
                     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
